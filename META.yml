@@ -24,4 +24,4 @@ resources:
   homepage: http://github.com/thrig/File-ReplaceBytes
   license: http://dev.perl.org/licenses/
   repository: http://github.com/thrig/File-ReplaceBytes
-version: 0.01
+version: 0.02
