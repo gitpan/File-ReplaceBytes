@@ -1,0 +1,40 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.73.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 87fe7f7711ca60db138c6a91d1971687a5e189cf Changes
+SHA1 716e4723ccc796e8d49bec87f50b3d91a5c27189 MANIFEST
+SHA1 df4dc45b14bb92dd792aa82441da85b1fff03a49 META.json
+SHA1 ee9caf89453d7c956dae5da2a4c14a9ed0b012fd META.yml
+SHA1 f910e747fd0213280a5cf0b0be6198b00ecfb910 Makefile.PL
+SHA1 a0507bda56881b0ac6e6a0fcf930126e7d2731d3 README
+SHA1 660c266d9ba16a7d5670b7b7e74ac7fb6c93d0f7 ReplaceBytes.xs
+SHA1 1a9e0730a721a5bcd2daa440f2a82b26dc320fe8 lib/File/ReplaceBytes.pm
+SHA1 da39a3ee5e6b4b0d3255bfef95601890afd80709 out
+SHA1 c054a2091499b95ffe8d55ac21f6d9637c2ca8e5 ppport.h
+SHA1 0c87191690a0ca173df3356f181549ccf14cc3eb t/File-ReplaceBytes.t
+SHA1 3ef65383d82f059f56f43236663119c01974decb t/pod.t
+SHA1 75e4352b8e21e9ce65e081f615f52c099705b17f t/testdata
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1
+
+iQEcBAEBAgAGBQJTYxAMAAoJEDTEVWqwTuCUkd8H/2deIdvotGCLvy9ChoAqaTpe
+X0fZSMWvUUmMlMl3MUClcH2sYbgsNBlchsnsdShWmdXkkzfW7sdt+vKPkguIpThS
+OaVGjPOAyg4rO+MWxs/S32235AnGEELuug515oyvDfpC84U5Ia7zdsjZ49gktjI9
+pIGaaxFdQ+0Jp7g7zyi+gtimzClWkdEvtZ0ik5VBg9Wvyf45phjms31NIt2C3SGi
+r3QI+v8NAkoy7n++r72HiKwdoI1Gzd7jhve0vfHA0mBhXASizcqbvI3nlc+5m0t9
+Nsns0yCLyViSnzsMR8FY4L7hRUe4PxDiVRevw9NBg17uf6diBZXiuB5VQ3UuT1o=
+=52JM
+-----END PGP SIGNATURE-----
