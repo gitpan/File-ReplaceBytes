@@ -10,7 +10,7 @@ require Exporter;
 our @ISA       = qw(Exporter);
 our @EXPORT_OK = qw/pread pwrite replacebytes/;
 
-our $VERSION = '0.06';
+our $VERSION = '0.07';
 
 require XSLoader;
 XSLoader::load( 'File::ReplaceBytes', $VERSION );
@@ -110,7 +110,7 @@ have backups, right? Backups are nice.
 
 =head1 AUTHOR
 
-Jeremy Mates, E<lt>jmates@cpan.orgE<gt>
+thrig - Jeremy Mates (cpan:JMATES) C<< <jmates at cpan.org> >>
 
 =head1 COPYRIGHT AND LICENSE
 

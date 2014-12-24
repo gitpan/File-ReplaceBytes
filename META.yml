@@ -3,25 +3,25 @@ abstract: 'read or replace arbitrary data in files'
 author:
   - 'Jeremy Mates <jmates@cpan.org>'
 build_requires:
-  Test::Exception: 0
-  Test::More: 0
+  Test::Exception: '0'
+  Test::More: '0'
 configure_requires:
-  ExtUtils::MakeMaker: 0
+  ExtUtils::MakeMaker: '0'
 dynamic_config: 1
-generated_by: 'ExtUtils::MakeMaker version 6.6302, CPAN::Meta::Converter version 2.120921'
-license: unknown
+generated_by: 'ExtUtils::MakeMaker version 6.66, CPAN::Meta::Converter version 2.142690'
+license: perl
 meta-spec:
   url: http://module-build.sourceforge.net/META-spec-v1.4.html
-  version: 1.4
+  version: '1.4'
 name: File-ReplaceBytes
 no_index:
   directory:
     - t
     - inc
 requires:
-  perl: 5.01
+  perl: '5.01'
 resources:
   homepage: http://github.com/thrig/File-ReplaceBytes
   license: http://dev.perl.org/licenses/
   repository: http://github.com/thrig/File-ReplaceBytes
-version: 0.06
+version: '0.07'
